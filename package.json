@@ -1,6 +1,6 @@
 {
   "name": "create-element-from-selector",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "document.createElement from a selector.",
   "license": "MIT",
   "repository": "egoist/create-element-from-selector",
