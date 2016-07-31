@@ -16,7 +16,7 @@ function parse(selector) {
     classList: [],
     id: ''
   }
-  parsed.forEach((key, index) => {
+  parsed.forEach(function (key, index) {
     if (key === '.') {
       elObj.classList.push(parsed[index + 1])
     } else if (key === '#') {
